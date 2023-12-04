@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SEvent</string>
+    <string name="tab_text">Bonus</string>
+    <string name="tab_devidend">Devidend</string>
+    <string name="tab_stocksplit">Stock Split</string>
+    <string name="tab_stockevent">Stock Event</string>
+</resources>
