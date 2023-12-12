@@ -1,35 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    tools:context=".MainActivity">
-    <TextView
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hasdjlfadf"/>
-
-    <com.google.android.material.tabs.TabLayout
-        android:layout_height="match_parent"
-        android:layout_width="match_parent">
-
-        <com.google.android.material.tabs.TabItem
-            android:text="@string/tab_devidend"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"/>
-
-        <com.google.android.material.tabs.TabItem
-            android:icon="@string/tab_stocksplit"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"/>
-
-        <com.google.android.material.tabs.TabItem
-            android:icon="@string/tab_stockevent"
-            android:layout_height="wrap_content"
-            android:layout_width="wrap_content"/>
-
-    </com.google.android.material.tabs.TabLayout>
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="Click Here"/>
 
 </RelativeLayout>
